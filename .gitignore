@@ -1,0 +1,38 @@
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+python_analysis/.ipynb_checkpoints/
+
+python_analysis/data_check.ipynb
+
+# Ignore virtual environment
+python_analysis/venv/
+
+
+# Ignore configuration files
+config.py
+
+# Ignore CSV and Excel analysis files
+csv_files/
+excel_analysis/
+powerbi_dashboard/
+
+
+# Ignore study files or drafts
+study/
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore output files if any
+*.csv
+*.xlsx
